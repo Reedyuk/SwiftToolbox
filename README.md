@@ -15,3 +15,5 @@ AnimatedImageView - A simple imageview which animates a set of images.
 ## UIView
 GradientView - A view using Chameleon framework to draw a gradient
 
+## Button
+RoundedButton - A rounded button, easy to implement in a storyboard.
