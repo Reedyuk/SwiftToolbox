@@ -1,4 +1,5 @@
 # SwiftToolbox
+A Swift 3.0 set of custom objects I use in projects.
 
 ## Segues
 FadeInPushSegue - segue animation for fading in
