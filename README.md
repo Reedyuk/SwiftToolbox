@@ -2,4 +2,16 @@
 
 ## Segues
 FadeInPushSegue - segue animation for fading in
+
 FadeOutPopSegue - segue animation for fading out
+
+PopSegue - a custom segue performing a standard pop animation
+
+PushSegue - a custom segue performing a standard push animation
+
+## UIImageView
+AnimatedImageView - A simple imageview which animates a set of images.
+
+## UIView
+GradientView - A view using Chameleon framework to draw a gradient
+
