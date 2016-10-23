@@ -9,7 +9,7 @@
 import UIKit
 
 class AnimatedImageView: UIImageView {
-    let imagePrefix = "animation-"
+    let imagePrefix = "animation-"  ///change this to your image name
     let numberOfImages = 40
     let duration = 3.5
     let repeatCount = 0

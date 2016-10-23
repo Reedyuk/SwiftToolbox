@@ -1,0 +1,24 @@
+PODS:
+  - ChameleonFramework/Default (2.1.0)
+  - ChameleonFramework/Swift (2.1.0):
+    - ChameleonFramework/Default
+
+DEPENDENCIES:
+  - ChameleonFramework/Swift (from `https://github.com/ViccAlexander/Chameleon.git`, branch `swift3`)
+
+EXTERNAL SOURCES:
+  ChameleonFramework:
+    :branch: swift3
+    :git: https://github.com/ViccAlexander/Chameleon.git
+
+CHECKOUT OPTIONS:
+  ChameleonFramework:
+    :commit: c400c32eead1c6e74008983c3e7c845ae069b41d
+    :git: https://github.com/ViccAlexander/Chameleon.git
+
+SPEC CHECKSUMS:
+  ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
+
+PODFILE CHECKSUM: 8c60fa61df9e21104a670c542b9bebccb8acb7ff
+
+COCOAPODS: 1.0.1
