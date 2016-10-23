@@ -11,8 +11,9 @@
 		00B9C88A1DBCEFD3001E6F7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00B9C8881DBCEFD3001E6F7F /* Main.storyboard */; };
 		00B9C88C1DBCEFD3001E6F7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00B9C88B1DBCEFD3001E6F7F /* Assets.xcassets */; };
 		00B9C88F1DBCEFD3001E6F7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00B9C88D1DBCEFD3001E6F7F /* LaunchScreen.storyboard */; };
-		00B9C8991DBCF25D001E6F7F /* FadeInPushSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B9C8971DBCF25D001E6F7F /* FadeInPushSegue.swift */; };
-		00B9C89A1DBCF25D001E6F7F /* FadeOutPopSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B9C8981DBCF25D001E6F7F /* FadeOutPopSegue.swift */; };
+		00B9C8A01DBCF656001E6F7F /* AnimatedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B9C89C1DBCF656001E6F7F /* AnimatedImageView.swift */; };
+		00B9C8A11DBCF656001E6F7F /* FadeInPushSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B9C89E1DBCF656001E6F7F /* FadeInPushSegue.swift */; };
+		00B9C8A21DBCF656001E6F7F /* FadeOutPopSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B9C89F1DBCF656001E6F7F /* FadeOutPopSegue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,8 +23,9 @@
 		00B9C88B1DBCEFD3001E6F7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00B9C88E1DBCEFD3001E6F7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		00B9C8901DBCEFD3001E6F7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00B9C8971DBCF25D001E6F7F /* FadeInPushSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FadeInPushSegue.swift; path = Segue/FadeInPushSegue.swift; sourceTree = "<group>"; };
-		00B9C8981DBCF25D001E6F7F /* FadeOutPopSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FadeOutPopSegue.swift; path = Segue/FadeOutPopSegue.swift; sourceTree = "<group>"; };
+		00B9C89C1DBCF656001E6F7F /* AnimatedImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedImageView.swift; sourceTree = "<group>"; };
+		00B9C89E1DBCF656001E6F7F /* FadeInPushSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FadeInPushSegue.swift; sourceTree = "<group>"; };
+		00B9C89F1DBCF656001E6F7F /* FadeOutPopSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FadeOutPopSegue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,10 +71,27 @@
 		00B9C8961DBCF023001E6F7F /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				00B9C8971DBCF25D001E6F7F /* FadeInPushSegue.swift */,
-				00B9C8981DBCF25D001E6F7F /* FadeOutPopSegue.swift */,
+				00B9C89B1DBCF656001E6F7F /* ImageView */,
+				00B9C89D1DBCF656001E6F7F /* Segue */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		00B9C89B1DBCF656001E6F7F /* ImageView */ = {
+			isa = PBXGroup;
+			children = (
+				00B9C89C1DBCF656001E6F7F /* AnimatedImageView.swift */,
+			);
+			path = ImageView;
+			sourceTree = "<group>";
+		};
+		00B9C89D1DBCF656001E6F7F /* Segue */ = {
+			isa = PBXGroup;
+			children = (
+				00B9C89E1DBCF656001E6F7F /* FadeInPushSegue.swift */,
+				00B9C89F1DBCF656001E6F7F /* FadeOutPopSegue.swift */,
+			);
+			path = Segue;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,9 +166,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00B9C89A1DBCF25D001E6F7F /* FadeOutPopSegue.swift in Sources */,
-				00B9C8991DBCF25D001E6F7F /* FadeInPushSegue.swift in Sources */,
+				00B9C8A21DBCF656001E6F7F /* FadeOutPopSegue.swift in Sources */,
 				00B9C8851DBCEFD3001E6F7F /* AppDelegate.swift in Sources */,
+				00B9C8A01DBCF656001E6F7F /* AnimatedImageView.swift in Sources */,
+				00B9C8A11DBCF656001E6F7F /* FadeInPushSegue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

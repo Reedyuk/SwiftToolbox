@@ -1,9 +1,9 @@
 //
 //  FadeOutPopSegue.swift
-//  Nutmeg
+//
 //
 //  Created by Andrew Reed on 06/07/2016.
-//  Copyright © 2016 Nutmeg. All rights reserved.
+//  Copyright © 2016. All rights reserved.
 //
 
 import UIKit
